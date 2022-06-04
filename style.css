@@ -136,6 +136,7 @@ body {
 /*BUTTON / REGISTRATION*/
 
 .buttom{
+    cursor: pointer;
     margin-top: 25px;
     border-radius: 20px;
     font-size: 17px;
@@ -184,6 +185,7 @@ body {
     padding-top: 11px;
     font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
     color: #fff;
+    cursor: pointer;
 }
 
 .log-but-con2{
@@ -198,6 +200,7 @@ body {
 
 .log-but-con1{
     margin-top: 35px;
+    cursor: pointer;
 }
 
 
@@ -207,7 +210,8 @@ body {
     display: flex;
     background-color: #118cff;
     padding: 0;  
-    border-color:#118cff; 
+    border-color:#118cff;
+    cursor: pointer; 
 }
 
 
@@ -229,6 +233,7 @@ body {
     padding-top: 5px;
     height: 35px;
     width: 35px; 
+    cursor: pointer;
 }
 
 .log-but-facebook{
@@ -238,6 +243,7 @@ body {
     background-color: rgb(59, 89, 152);
     padding: 0;  
     border-color:rgb(59, 89, 152); 
+    cursor: pointer;
 }
 
 /*APPLE*/
@@ -250,6 +256,7 @@ body {
     height: 35px;
     width: 35px; 
     border-right: 2px solid black;
+    cursor: pointer;
 }
 
 .log-but-apple{
@@ -258,7 +265,8 @@ body {
     display: flex;
     background-color: #fff;
     padding: 0;  
-    border-color: solid rgb(0, 0, 0); 
+    border-color: solid rgb(0, 0, 0);
+    cursor: pointer; 
 }
 
 .but-contant-apple{
