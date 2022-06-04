@@ -3,6 +3,7 @@
     <head>
         <meta charset="UFT-8"> 
         <title>Login | Wix</title>
+        <link rel="icon" href="img/wix-logo.svg">
         <link rel="stylesheet" type="text/css" href="style.css">
     <body>
         <div class="logo">
@@ -26,7 +27,10 @@
                         <input id="type" type="password" placeholder="Password">
                     </div>
                     <div class="reg-info">
-                        <div id="checkbox"> <input class="checkbox" type="checkbox" value="cricket">Remember me <br> <a class="checkbox-href" href="url">Forgot password or email mail</a></div>
+                        <div id="checkbox"> 
+                            <input class="checkbox" type="checkbox" value="cricket">Remember me
+                            <div><a class="checkbox-href" href="url">Forgot password or email mail</a></div>
+                        </div>
                     </div>
                     <div class="reg-buttom">
                         <a class="buttom"><button class="buttom" type="button">Log in</button></a>
@@ -36,10 +40,37 @@
                     <div class="lr-line-1"></div>                    
                 </div>
                 <div class="lr-log"> 
-
+                    <div class="log-but-con1">                        
+                        <button class="log-but-google" type="button"> 
+                            <div class="display-but-google"><img id="log-but" src="img/google-logo.svg"/></div> 
+                            <div class="but-contant">Sign in with Google</div>
+                        </button>                                               
+                    </div>
+                    <div class="log-but-con2">                        
+                        <button class="log-but-facebook" type="button"> 
+                            <div class="display-but-facebook"><img id="log-but" src="img/facebook-logo.svg"/></div> 
+                            <div class="but-contant">Log in with Facebook</div>
+                        </button>                                               
+                    </div>
+                    <div class="log-but-con2">                        
+                        <button class="log-but-apple" type="button"> 
+                            <div class="display-but-apple"><img id="log-but" src="img/apple-logo.svg"/></div> 
+                            <div class="but-contant-apple">Log in via Apple</div>
+                        </button> 
+                    </div>
+                    <div class="login-with">
+                        <a class="href-login" href="url">Login with SSO</a>
+                    </div> 
                 </div>
             </div>
-            <div></div>
+            <div>
+                <div class="cont-info-1">
+                    * By logging in, you accept the <a class="con-href" href="url">Terms of Use</a>, acknowledge that you <br> read <a class="con-href" href="url">the Privacy Policy</a>, and agree to receive news from Wix by <br> mail.
+                </div>
+                <div class="cont-info-2">
+                    This site is protected by reCAPTCHA Enterprise and is subject to <a class="con-href" href="url">the <br> Google Privacy Policy</a> and <a class="con-href" href="url">Terms of</a> Service.
+                </div>
+            </div>
         </div>
     </body>
 </html>

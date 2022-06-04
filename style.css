@@ -27,7 +27,6 @@ body {
     width: 815px;
     height: 640px;
     margin: auto;
-    background-color: aqua;
 }
 
 .con-exit{
@@ -48,18 +47,16 @@ body {
 .con-1{
     height: 75px;
     text-align: center;
-    background-color: bisque;
 }
 
 .con-2{
     text-align: center;
     height: 50px;
-    background-color: azure;
 }
 
 .con-href{
     text-decoration: none; 
-    color: #116dff;
+    color: #118cff;
 }
 
 
@@ -82,7 +79,6 @@ body {
     padding-top: 20px;
     height: 50px;
     margin-top: 10px;
-    background-color: gold;
 }
 
 .reg-log{
@@ -90,20 +86,17 @@ body {
     height: 60px;
     margin-top: 10px;
     padding-top: 10px;
-    background-color: khaki;
 }
 
 .reg-info{
     width: 100%;
     height: 55px;
     margin-top: 10px;
-    background-color: violet;
 }
 
 .reg-buttom{
     width: 100%;
     height: 75px;
-    background-color: lightcoral;
 }
 
 #type{
@@ -118,14 +111,15 @@ body {
 /*CHECKBOX / REGISTRATIOM*/
 
 #checkbox{
-    font-size: 17px;
-    line-height: 22px;
+    display: flex;
+    font-size: 14px;
     font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
 }
 
 .checkbox{
-    width: 16px;
-    height: 16px; 
+    width: 14px;
+    height: 14px; 
+    margin: 0 auto;
 }
 
 .checkbox-href{
@@ -136,7 +130,7 @@ body {
 }
 
 .checkbox-href:hover{
-    color: #116dff;
+    color: #118cff;
 }
 
 /*BUTTON / REGISTRATION*/
@@ -146,16 +140,16 @@ body {
     border-radius: 20px;
     font-size: 17px;
     background-color: white;
-    color: #116dff;
-    border-color: #116dff;
+    color: #118cff;
+    border-color: #118cff;
     min-width: 150px;
     min-height: 38px;
-    transition: all 0.6s ease;
+    transition: all 0.6s ease;   /*плавно міняє колір*/
 }
 
 .buttom:hover{
     color: #fff;
-    background-color: #116dff;
+    background-color: #118cff;
 }
 
 
@@ -181,7 +175,152 @@ body {
 .lr-log{
     width: 335.625px;
     height: 300px;
-    background-color: yellow;
+}
+
+.but-contant{
+    height: 27px;
+    font-size: 17px;
+    width: 100%;
+    padding-top: 11px;
+    font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+    color: #fff;
+}
+
+.log-but-con2{
+    margin-top: 20px;
+}
+
+#log-but{
+    height: 30px;
+}
+
+/*GOOGLE*/
+
+.log-but-con1{
+    margin-top: 35px;
 }
 
 
+.log-but-google{
+    min-width: 100%;
+    max-height: 65px;
+    display: flex;
+    background-color: #118cff;
+    padding: 0;  
+    border-color:#118cff; 
+}
+
+
+.display-but-google{
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 35px; 
+}
+
+
+/*FACEBOOK*/
+
+.display-but-facebook{
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 35px;
+    width: 35px; 
+}
+
+.log-but-facebook{
+    min-width: 100%;
+    max-height: 65px;
+    display: flex;
+    background-color: rgb(59, 89, 152);
+    padding: 0;  
+    border-color:rgb(59, 89, 152); 
+}
+
+/*APPLE*/
+
+.display-but-apple{
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 35px;
+    width: 35px; 
+    border-right: 2px solid black;
+}
+
+.log-but-apple{
+    min-width: 100%;
+    max-height: 65px;
+    display: flex;
+    background-color: #fff;
+    padding: 0;  
+    border-color: solid rgb(0, 0, 0); 
+}
+
+.but-contant-apple{
+    height: 27px;
+    font-size: 17px;
+    width: 100%;
+    padding-top: 11px;
+    font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+/*LOGIN HREF*/
+
+.href-login{
+    text-decoration: none; 
+    color: #118cff;
+}
+
+.login-with{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+/*INFO*/
+
+.cont-info-1{
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 65px;
+    font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+    width: 100%;
+    height: 75px;
+}
+
+.cont-info-1:after{
+    content: "";
+    display: block;
+    border-radius: 30px;
+    position:relative;
+    top: 10px;
+    left: 0;
+    width: 40%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #c7cdd3
+}
+
+.cont-info-2{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+.cont-info-2{
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    font-family:'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+    width: 100%;
+    height: 75px;
+}    
